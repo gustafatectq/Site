@@ -1,0 +1,187 @@
+@cor1: #009faf;
+@cor2: #EC6641;
+@cor3: #00909E;
+@cor4: #0069D9;
+@cor5: #e34317;
+@cor6: #ee7958;
+@cor7: #007884;
+@cor8: white;
+
+@margin: 0;
+@padding: 0;
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    font-family: Roboto Condensed;
+}
+
+nav {
+    background-color: @cor1 !important;
+}
+
+main {
+    background: url('../IMG/7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 710px;
+}
+
+.card-img {
+    height: 100%;
+}
+
+.nav-item {
+    margin-left: 5% !important;
+}
+
+.nav-item:hover {
+    background-color: @cor3 !important;
+    margin-left: 5% !important;
+}
+
+.col-form {
+    background-color: @cor8;
+    padding: @padding !important;
+}
+
+.col-pesquisa {
+    margin-top: 15%;
+}
+
+.card-jobs {
+    background: #EEEFF1;
+}
+
+.btn-option-search {
+    background-color: @cor1 !important;
+    border-color: @cor1 !important;
+}
+
+.btn-option-search:hover {
+    background-color: @cor3 !important;
+}
+
+.btn-search {
+    background: @cor2 !important;
+    border-color: @cor2 !important;
+    color: @cor8;
+}
+
+.btn-search:hover {
+    background: @cor5 !important;
+}
+
+.section-card-offer {
+    background: #f6f6f6;
+}
+
+.card-jobs-plan, .btn-jobs-plan {
+    background-color: @cor1;
+    border-color: @cor1;
+}
+
+.btn-jobs-plan:hover {
+    background-color: @cor3 !important;
+    border-color: @cor3 !important;
+}
+
+.card-jobs-plan-last {
+    background: @cor6;
+}
+
+.job-plan-price {
+    font-size: 55px;
+    text-align: center !important;
+}
+
+.simbolo {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+.title-jobs-plan {
+    margin-bottom: 0 !important;
+}
+
+.subtitle-jobs-plan {
+    font-weight: normal !important;
+}
+
+.title-jobs-plan, .subtitle-jobs-plan {
+    color: @cor8;
+}
+
+.li-text {
+    background-color: #f2f2f2 !important;
+}
+
+.col-about {
+    background: @cor1;
+}
+
+.btn-about {
+    background-color: @cor7 !important;
+    border-color: @cor7 !important;
+}
+
+.btn-about:hover {
+    background-color: @cor3 !important;
+    border-color: @cor3 !important;
+}
+
+.col-about-img {
+    padding-left: @padding !important;
+    padding-right: @padding !important;
+}
+
+footer {
+    background-color: @cor1;
+}
+
+.li-mapa {
+    background: @cor1;
+}
+
+.btn-contact:hover {
+    background-color: @cor4 !important;
+    color: @cor8 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .card-plans, .card-not, .img-empresa {
+        margin-top: 5% !important;
+    }
+
+    .col-about-img {
+        display: none;
+    }
+
+    .col-about-btn {
+        margin-bottom: 2%;
+    }
+
+    .row-plans {
+        margin: @margin !important;
+        padding: @padding !important;
+    }
+
+    .col-title-plans, .row-title-not, .row-title-destaque {
+        margin-top: 3% !important;
+    }
+
+    .row-not, .row-destaque {
+        margin: @margin !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 930px) {
+    .col-about {
+        padding-top: @padding !important;
+    }
+}

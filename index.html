@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">FindJobs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ustify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#section-jobs">Empregos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#section-about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#section-card-offer">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#section-noticia">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#section-partners">Destaques</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-pesquisa">
+                    <h1 class="text-center text-white">PESQUISA DE TRABALHOS</h1>
+                    <h6 class="text-center text-white">Junte-se a nós e explore milhares de empregos</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-0 col-lg-0 col-xl-3"></div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-2 col-buttons">
+                    <button class="btn btn-primary float-right w-100 btn-option-search">Procura de emprego</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-2 col-buttons">
+                    <button class="btn btn-primary w-100 btn-option-search">Retomar pesquisa</button>
+                </div>
+                <div class="col-12 col-sm-12 col-md-0 col-lg-0 col-xl-3"></div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-form">
+                    <form class="w-100 border border-primary p-5">
+                        <div class="form-row">
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                <input type="text" class="form-control" placeholder="Pesquisar">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                <select class="custom-select">
+                                    <option value="alltimes" selected>Todos os horários</option>
+                                    <option value="fulltime">Tempo Total</option>
+                                    <option value="parttime">Meio período</option>
+                                    <option value="estagio">Estágio</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                <select class="custom-select">
+                                    <option value="all" selected>Todas as categorias</option>
+                                    <option value="engenharia">Engenharia</option>
+                                    <option value="computacao">Computação/TI</option>
+                                    <option value="design">Design</option>
+                                    <option value="marketing">Marketing</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                <button type="submit" class="w-100 btn btn-search">Procurar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="section-jobs" id="section-jobs">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-12 mt-3">
+                    <h2 class="text-center">Empregos recentes</h2>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card mb-3 card-jobs">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="IMG/logos/treyarch.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Treyarch</h5>
+                                    <p class="card-text text-justify">
+                                        A Treyarch está procurando por um Artista Técnico de Personagem Sênior para
+                                        ajudar a manipular, modelar e implementar nossos personagens, criaturas, armas e
+                                        veículos para nossos projetos atuais e futuros. Nosso foco será criar
+                                        personagens e adereços impressionantes, realistas e memoráveis que funcionem
+                                        perfeitamente em ação rápida - 60 quadros por segundo e cinemas em tempo real
+                                        não pré-renderizados - ampliando as fronteiras do jogo, da arte, da narrativa e
+                                        tecnologia. Nosso candidato perfeito demonstrará um equilíbrio entre a
+                                        compreensão da grande execução de arte e a grande execução técnica. Esse
+                                        candidato também precisa ser um ótimo membro da equipe - nunca se colocando
+                                        acima das necessidades do projeto e da equipe.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3 card-jobs">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="IMG/logos/marvel.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Marvel</h5>
+                                    <p class="card-text text-justify">Trabalhar com uma Regional Marvel & Lucas lidera a
+                                        definição e a implantação de estratégias e objetivos da Latam.
+                                        Preparar análises e páginas de franquias com uma estratégia Latam
+                                        A comunicação periódica é importante para benchmarking de iniciativa e
+                                        recebimento de informações sobre a estratégia de adaptação da Latam.
+                                        Trabalhar na comunicação com organizações locais para implantação de estratégias
+                                        em uma base local.
+                                        Compartilhe como melhores práticas de iniciativa de franquia para obter
+                                        informações sobre o crescimento de suas franquias.
+                                        Consolidar iniciativas locais com uma estratégia da América Latina para fins de
+                                        apresentação.
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3 card-jobs">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="IMG/logos/blizzard.png" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blizzard</h5>
+                                    <p class="card-text text-justify">Mínimo de 3 anos de experiência em desenvolvimento
+                                        de jogos como artista
+                                        especializado em modelagem de personagens / orgânicos usando Maya, Photoshop,
+                                        Zbrush ou Mudbox.
+                                        Entendimento excepcional de pipelines e ferramentas de criação de ativos da
+                                        próxima geração
+                                        Proficiência demonstrada em técnicas tradicionais de modelagem por poliéster de
+                                        superfície dura
+                                        Uma compreensão excepcional de forma, forma, estrutura e silhueta em relação à
+                                        modelagem
+                                        Olho superior para luz, sombra, cor e detalhes na criação de mapas de textura
+                                        Auto-motivação, habilidades de comunicação superiores e uma ótima atitude de
+                                        equipe-jogador
+                                        Capaz de trabalhar de forma criativa como parte de um grupo grande ou pequeno
+                                        Capacidade comprovada de resolução de problemas / prototipagem
+                                        Capaz de colaborar efetivamente com designers de jogos e programadores
+                                        Entendimento do estilo visual dos jogos da Blizzard e uma paixão para empurrá-lo
+                                        para o próximo nível
+                                        paixão por video games</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3 card-jobs">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="IMG/logos/ea.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">EA</h5>
+                                    <p class="card-text text-justify">Develop and build strong working relationships
+                                        with development teams and execute a development QA support strategy during
+                                        development.
+                                        Dedicated, flexible, and able to adapt QA process to the critical needs of
+                                        partner teams.
+                                        Understands concepts of defect prevention and defect containment.
+                                        Experienced with Grey/White box testing in development environments.
+                                        Understands the value of automated testing and knows how to appropriately
+                                        approach usage.
+                                        Familiar with common automation toolsets, EA proprietary tools are a plus.
+                                        Able to collect and transcribe quantitative data in forming risk assessments,
+                                        generating solutions and raise to applicable partners.
+                                        Active listener with both peers and partners, can drive conversations, and
+                                        supports team participation.
+                                        Analyzes personal and team process for innovation opportunities, and raises
+                                        potential improvements.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card mb-3 card-jobs">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="IMG/logos/subway.jpg" class="card-img img-job" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Subway</h5>
+                                    <p class="card-text text-justify">Executar todas as tarefas e responsabilidades de
+                                        um coordenador, conforme especificado na descrição do cargo de coordenador.
+                                        Realizar o recrutamento de pessoal, atendendo as especificações e regras de
+                                        recursos humanos, conforme necessário.
+                                        Comunica alterações de fórmulas de preparação de alimentos, padrões, entre
+                                        outros para sua equipe de trabalho.
+                                        Garantir que todos os procedimentos de segurança locais e nacionais de saúde e
+                                        alimentares sejam mantidos e seguidos.
+                                        Manter os registros de negócios, conforme descrito no manual de operações
+                                        subway®. Analisar os registros de negócios para aumento das vendas.
+                                        Realizar a contagem de mercadorias/inventário, bem como manter e controlar
+                                        estes.
+                                        Identificar e entrar em contato com potenciais clientes para promoção de
+                                        vendas.
+                                        Realizar universidade subway®.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="section-about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5 col-about">
+                    <h2 class="text-center">Sobre nós</h2>
+                    <p class="text-justify">Atuando desde maio de 2019, esse site é um dos maiores portais de empregos e
+                        carreiras do Brasil: são 14 anos trabalhando para promover o encontro do candidato com a vaga
+                        ideal.E conta hoje com mais de 4.6 milhões de currículos profissionais, uma margem de 170 mil
+                        empresas cadastradas em seu sistema e mais de 120 mil vagas disponíveis em todo o país. Uma
+                        ótima fonte tanto para quem visa recrutar um novo colaborador, quanto para quem busca uma nova
+                        oportunidade no mercado de trabalho.
+                        A nossa equipe tem como objetivo gerar oportunidades de emprego e promover a divulgação do seu
+                        currículo.
+
+                        Assim, nossa missão é trabalhar junto a você no alcance de suas maiores e mais importantes
+                        conquistas profissionais, o orientando através de serviços sérios e trans</p>
+                    <div class="row mt-2">
+                        <div
+                            class="d-flex justify-content-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-about-btn">
+                            <button class="btn btn-primary active mr-3 btn-about-more">Saiba mais</button>
+                            <button class="btn btn-primary btn-about">Junte-se a nós agora!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-about-img">
+                    <img class="img-fluid" src="img/about.png" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-card-offer" id="section-card-offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5 col-title-plans">
+                    <h2 class="text-center">Planos de trabalho e preços</h2>
+                </div>
+            </div>
+            <div class="row mt-3 p-4 row-plans">
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="card card-plans">
+                        <div class="card-body card-jobs-plan">
+                            <h2 class="card-title text-center title-jobs-plan">GRÁTIS</h2>
+                            <h6 class="text-center subtitle-jobs-plan"><i>Plano grátis</i></h6>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center li-text">1 anúncio de emprego</li>
+                            <li class="list-group-item text-center li-text">Nenhum emprego em destaque</li>
+                            <li class="list-group-item text-center li-text">Nenhum trabalho em destaque Exibido por 5
+                                dias</li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <span class="job-plan-price">0<span class="simbolo">$</span></span>
+                            <p class="mb-4"></p>
+                            <button class="btn btn-primary w-100 mt-3 btn-jobs-plan">Contratar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="card card-plans">
+                        <div class="card-body card-jobs-plan">
+                            <h2 class="card-title text-center title-jobs-plan">Start Up</h2>
+                            <h6 class="text-center subtitle-jobs-plan"><i>Plano clássico</i></h6>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center li-text">5 anúncios de empregos</li>
+                            <li class="list-group-item text-center li-text">2 trabalhos em destaque</li>
+                            <li class="list-group-item text-center li-text">Nenhum trabalho em destaque Exibido por 5
+                                dias</li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <span class="job-plan-price">10<span class="simbolo">$</span></span>
+                            <p class="mb-0"><i>Por mês</i></p>
+                            <button class="btn btn-primary w-100 mt-3 btn-jobs-plan">Contratar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="card card-plans">
+                        <div class="card-body card-jobs-plan">
+                            <h2 class="card-title text-center title-jobs-plan">Enterprise</h2>
+                            <h6 class="text-center subtitle-jobs-plan"><i>Melhor escolha</i></h6>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center li-text">10 anúncios de empregos</li>
+                            <li class="list-group-item text-center li-text">5 trabalhos em destaque</li>
+                            <li class="list-group-item text-center li-text">Nenhum trabalho em destaque Exibido por 15
+                                dias</li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <span class="job-plan-price">25<span class="simbolo">$</span></span>
+                            <p class="mb-0"><i>Por mês</i></p>
+                            <button class="btn btn-primary w-100 mt-3 btn-jobs-plan">Contratar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="card card-plans">
+                        <div class="card-body card-jobs-plan-last">
+                            <h2 class="card-title text-center title-jobs-plan">Company</h2>
+                            <h6 class="text-center subtitle-jobs-plan"><i>Recursos ilimitados</i></h6>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center li-text">30 anúncios de empregos</li>
+                            <li class="list-group-item text-center li-text">10 trabalhos em destaque</li>
+                            <li class="list-group-item text-center li-text">Nenhum trabalho em destaque Exibido por 60
+                                dias</li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <span class="job-plan-price">50<span class="simbolo">$</span></span>
+                            <p class="mb-0"><i>Por mês</i></p>
+                            <button class="btn btn-primary w-100 mt-3 btn-jobs-plan">Contratar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-noticia" id="section-noticia">
+        <div class="container">
+            <div class="row mt-5 row-title-not">
+                <div class="col-12">
+                    <h2 class="text-center">Últimas notícias</h2>
+                </div>
+            </div>
+            <div class="row mt-3 row-not">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card card-not">
+                        <img src="IMG/not1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Facebook</h5>
+                            <p class="card-text">A rede social mais popular do mundo está com 33 vagas abertas em seu
+                                escritório em São Paulo. Há posições para áreas como engenharia de soluções,
+                                comunicação, relacionamento com parceiros, recrutamento, políticas públicas, operações
+                                online vendas e marketing. Confira todas as vagas e seus detalhes pelo site.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card card-not">
+                        <img src="IMG/not2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">IFood</h5>
+                            <p class="card-text">A maior foodtech da América Latina está com mais de 75 posições abertas
+                                espalhadas por todo o país, entre cidades como São Paulo, Osasco, Jundiaí, Porto Alegre,
+                                Campinas, Maceió, Curitiba, Goiânia, Rio de Janeiro e Joinville. Há oportunidades nos
+                                setores de B2B, tecnologia, finanças, logística, pessoas, instalações, operações e
+                                estratégia. No entanto, o setor que conta com mais vagas é o de negócios e vendas.
+                                Inscreva-se pelo site.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card card-not">
+                        <img src="IMG/not3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Microsoft</h5>
+                            <p class="card-text">A Microsoft está com 24 vagas efetivas (e full time) para posições em
+                                São Paulo, Brasília e Rio de Janeiro. Entre as áreas com as vagas abertas estão
+                                marketing, serviços, vendas, sucesso do consumidor e negócios. Confira todas as vagas
+                                por aqui.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-partners" id="section-partners">
+        <div class="container">
+            <div class="row mt-5 row-title-destaque">
+                <div class="col-12">
+                    <h2 class="text-center">Empresas em destaque</h2>
+                </div>
+            </div>
+            <div class="row mt-4 row-destaque">
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <img src="IMG/logos/logo1.png" class="img-fluid img-empresa mx-auto d-block" alt="Responsive image">
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <img src="IMG/logos/logo2.png" class="img-fluid img-empresa mx-auto d-block" alt="Responsive image">
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <img src="IMG/logos/logo3.png" class="img-fluid img-empresa mx-auto d-block" alt="Responsive image">
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <img src="IMG/logos/logo4.png" class="img-fluid img-empresa mx-auto d-block" alt="Responsive image">
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <img src="IMG/logos/logo5.png" class="img-fluid img-empresa mx-auto d-block" alt="Responsive image">
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                    <img src="IMG/logos/logo6.png" class="img-fluid img-empresa mx-auto d-block" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row p-3 mt-5">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+                    <h4 class="text-white">Contato</h4>
+                    <p class="text-white">Email: support@job4u.domain</p>
+                    <p class="text-white">Telefone 1: 55 (60) 6434-8859</p>
+                    <p class="text-white">Telefone 2: 55 (60) 9818-5531</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 mt-5">
+                    <h4 class="text-white">Links</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item li-mapa"><a class="text-white" href="#">Home</a></li>
+                        <li class="list-group-item li-mapa"><a class="text-white" href="#section-jobs">Empregos</a></li>
+                        <li class="list-group-item li-mapa"><a class="text-white" href="#section-about">Sobre</a></li>
+                        <li class="list-group-item li-mapa"><a class="text-white" href="#section-card-offer">Planos</a>
+                        </li>
+                        <li class="list-group-item li-mapa"><a class="text-white" href="#section-noticia">Noticias</a>
+                        </li>
+                        <li class="list-group-item li-mapa"><a class="text-white" href="#section-partners">Destaques</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-5 mt-5">
+                    <h4 class="text-white">Feedback</h4>
+                    <form>
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Nome"><br />
+                                <input type="text" class="form-control" placeholder="E-mail"><br />
+                                <button class="btn btn-primary w-50 bg-white text-info btn-contact"
+                                    type="submit">Enviar</button>
+                            </div>
+                            <div class="col-6">
+                                <textarea class="form-control" id="text-area" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

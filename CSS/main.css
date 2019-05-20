@@ -1,0 +1,145 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+html,
+body {
+  width: 100%;
+  font-family: Roboto Condensed;
+}
+nav {
+  background-color: #009faf !important;
+}
+main {
+  background: url('../IMG/7.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 710px;
+}
+.card-img {
+  height: 100%;
+}
+.nav-item {
+  margin-left: 5% !important;
+}
+.nav-item:hover {
+  background-color: #00909E !important;
+  margin-left: 5% !important;
+}
+.col-form {
+  background-color: white;
+  padding: 0 !important;
+}
+.col-pesquisa {
+  margin-top: 15%;
+}
+.card-jobs {
+  background: #EEEFF1;
+}
+.btn-option-search {
+  background-color: #009faf !important;
+  border-color: #009faf !important;
+}
+.btn-option-search:hover {
+  background-color: #00909E !important;
+}
+.btn-search {
+  background: #EC6641 !important;
+  border-color: #EC6641 !important;
+  color: white;
+}
+.btn-search:hover {
+  background: #e34317 !important;
+}
+.section-card-offer {
+  background: #f6f6f6;
+}
+.card-jobs-plan,
+.btn-jobs-plan {
+  background-color: #009faf;
+  border-color: #009faf;
+}
+.btn-jobs-plan:hover {
+  background-color: #00909E !important;
+  border-color: #00909E !important;
+}
+.card-jobs-plan-last {
+  background: #ee7958;
+}
+.job-plan-price {
+  font-size: 55px;
+  text-align: center !important;
+}
+.simbolo {
+  font-size: 20px;
+  position: relative;
+  top: -20px;
+}
+.title-jobs-plan {
+  margin-bottom: 0 !important;
+}
+.subtitle-jobs-plan {
+  font-weight: normal !important;
+}
+.title-jobs-plan,
+.subtitle-jobs-plan {
+  color: white;
+}
+.li-text {
+  background-color: #f2f2f2 !important;
+}
+.col-about {
+  background: #009faf;
+}
+.btn-about {
+  background-color: #007884 !important;
+  border-color: #007884 !important;
+}
+.btn-about:hover {
+  background-color: #00909E !important;
+  border-color: #00909E !important;
+}
+.col-about-img {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+footer {
+  background-color: #009faf;
+}
+.li-mapa {
+  background: #009faf;
+}
+.btn-contact:hover {
+  background-color: #0069D9 !important;
+  color: white !important;
+}
+@media only screen and (max-width: 767px) {
+  .card-plans,
+  .card-not,
+  .img-empresa {
+    margin-top: 5% !important;
+  }
+  .col-about-img {
+    display: none;
+  }
+  .col-about-btn {
+    margin-bottom: 2%;
+  }
+  .row-plans {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .col-title-plans,
+  .row-title-not,
+  .row-title-destaque {
+    margin-top: 3% !important;
+  }
+  .row-not,
+  .row-destaque {
+    margin: 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 930px) {
+  .col-about {
+    padding-top: 0 !important;
+  }
+}
