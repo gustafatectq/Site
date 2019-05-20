@@ -1,3 +1,3 @@
 # FindJobs
 
-https://gustafatectq.github.io/FindJobs/
+https://gustafatectq.github.io/Site/
